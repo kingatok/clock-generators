@@ -1,0 +1,30 @@
+{
+  "name": "daftacademy-clock",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "deploy": "gh-pages -d dist",
+    "start": "webpack-dev-server --open"
+  },
+  "author": "Kinga Tokarzewska",
+  "license": "ISC",
+  "homepage": "https://kingatok.github.io/clock-generators",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.3",
+    "gh-pages": "^2.0.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-transform-regenerator": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack-dev-server": "^3.3.0"
+  },
+  "browserslist": "> 0.25%, last 2 versions"
+}
